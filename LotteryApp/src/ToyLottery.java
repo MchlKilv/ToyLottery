@@ -16,7 +16,7 @@ public class ToyLottery {
         String[] parts = input.split(" ");
         int id = Integer.parseInt(parts[0]);
         int weight = Integer.parseInt(parts[1]);
-        String name = parts[1];
+        String name = parts[2];
 
         Toy toy = new Toy(id, name, weight);
         toyQueue.add(toy);

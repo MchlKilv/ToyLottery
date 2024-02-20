@@ -1,18 +1,7 @@
-## Getting Started
+# Задание
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. Напишите класс-конструктор, у которого принимает минимум 3 строки, содержащие три поля id игрушки, текстовое название и частоту выпадения игрушки.
+2. Из принятой строки id и частоты выпадения (веса) заполнить минимум три массива.
+3. Используя API коллекции `java.util.PriorityQueue`, добавьте элементы в коллекцию.
+4. Организуйте общую очередь.
+5. Вызовите метод `Get` 10 раз и записывайте результат в файл.
